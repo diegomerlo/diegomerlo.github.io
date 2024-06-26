@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 7</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<!-- Solo alguno lo verá -->
+<body>
+    <!-- <h1>Hola Mundo utilizando bootstrap</h1> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Diego Emiliano Merlo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Porantfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#about">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-5" id="Tarjeta-Principal">
+      <img src="imagenes/LegajoImagen.jpg" alt="Tu Nombre" class="rounded-circle mb-3" style="width: 150px;">
+      <h1>Diego Emiliano Merlo</h1>
+      <p class="lead">Técnico en Computación</p>
+    </header>
+    
+    <section id="portfolio" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Portfolio</h2>
+          <hr>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <iframe width="ms-auto" height="ms-auto" src="https://www.youtube.com/embed/ESqBYAVbcCM" title="PointWall 2023❤️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">PointWall</h5>
+                  <p class="card-text">PointWall es una galería colaborativa digital de arte urbano. Liga la ubicación con la obra, permite ver los cambios con el paso del tiempo y los artistas que intervinieron. Cualquier persona desde cualquier parte del mundo puede subir sus fotos...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <iframe width="ms-auto" height="ms-auto" src="https://www.youtube-nocookie.com/embed/rwiOWrnHNRo?si=39zxDskB7qYzbClC&amp;start=600" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Café Latzina</h5>
+                  <p class="card-text">Café Latzina es un podcast orientado a temas de la actualidad, invitando al debate aplio de ideas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img src="imagenes/DSCN7548.JPG" class="card-img-top rounded" width="ms-auto" height="ms-auto" alt="Proyecto 3">
+                <div class="card-body">
+                  <h5 class="card-title">Evento "La 35"</h5>
+                  <p class="card-text">Gestor y organizador de un evento realizado en la escuela técnica nro 35. El evento busca generar un espacio de vinculo entre el alumnado y el colegio.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="card-title">Acerca de mí</h2>
+          <hr>
+          <p class="card-text">Soy una persona que es capaz de gestionar
+            y organizar proyectos en equipo. Me gusta
+            trabajar y colaborar en equipo. Tengo muy
+            buena comunicación interpersonal tanto con
+            mis compañeros, como con mis superiores</p>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Contacto</h2>
+          <hr>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="text-center py-4">
+        <div class="container">
+          <p>&copy; 2024 Diego Emiliano Merlo. Todos los derechos reservados.</p>
+          <p>Sígueme en:
+            <a href="https://instagram.com/diegmerlo" target="_blank">Instagram</a> | 
+            <a href="https://x.com/merlodieg?lang=ar" target="_blank">Twitter</a> | 
+            <a href="https://linkedin.com/in/diego-e-merlo-81b4b225a" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </footer>
+
+      <script src="./js/bootstrap.min.js"></script>
+      
+</body>
+</html>
